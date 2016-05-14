@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1455460615 source:/home/meres/codeblocksprojects/PUB_SUB/Client/pub_sub_client/client_shared.c
+	<errno.h>
+	<fcntl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<process.h>
+	<winsock2.h>
+	<mosquitto.h>
+	"client_shared.h"
+
+1455460615 /home/meres/codeblocksprojects/PUB_SUB/Client/pub_sub_client/client_shared.h
+	<stdio.h>
+
+1461839142 source:/home/meres/codeblocksprojects/PUB_SUB/Client/pub_sub_client/sub_client.c
+	<assert.h>
+	<errno.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<process.h>
+	<winsock2.h>
+	<mosquitto.h>
+	"client_shared.h"
+
