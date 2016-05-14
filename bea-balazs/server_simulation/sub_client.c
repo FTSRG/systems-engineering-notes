@@ -387,15 +387,6 @@ int main(int argc, char *argv[])
     rc = client_connect(mosq, &cfg);
     if(rc) return rc;
     rc = mosquitto_loop_forever(mosq, -1, 1);
-    /*while (server_can_run) {
-        if (disconnect_sent) {
-            rc = client_connect(mosq, &cfg);
-            if(rc) return rc;
-            disconnect_sent = false;
-        }
-
-        rc = mosquitto_loop_forever(mosq, -1, 1);
-    }*/
 
 	mosquitto_destroy(mosq);
 	mosquitto_lib_cleanup();
