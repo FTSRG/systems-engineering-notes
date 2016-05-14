@@ -78,7 +78,7 @@ states tcp_states = LISTEN;
 
 bool process_messages = true;
 int msg_count = 0;
-//int mID = NULL;
+
 int myRC;
 static int last_mid_sent = -1;
 static int mode = MSGMODE_NONE;
@@ -133,7 +133,6 @@ void my_message_callback(struct mosquitto *mosq, void *obj, const struct mosquit
                     printf("\nSTATE: SYN_RECEIVED");
                     sleep(1);   // 1 second
                     myRC = mosquitto_publish(mosq, NULL, topicname, strlen(server_messages[0]), server_messages[0], 0, false);
-                    //mID++;
                 } else if (strcmp(c, "Client: ACK") == 0) {
                     switch (tcp_states) {
                         case SYN_RECEIVED:
@@ -154,10 +153,8 @@ void my_message_callback(struct mosquitto *mosq, void *obj, const struct mosquit
                             tcp_states = CLOSE_WAIT;
                             printf("\nSTATE: CLOSE_WAIT\n");
                             myRC = mosquitto_publish(mosq, NULL, topicname, strlen(server_messages[1]), server_messages[1], 0, false);
-                            //mID++;
 
                             myRC = mosquitto_publish(mosq, NULL, topicname, strlen(server_messages[2]), server_messages[2], 0, false);
-                            //mID++;
                             tcp_states = LAST_ACK;
                             printf("STATE: LAST_ACK");
                         break;
@@ -170,7 +167,6 @@ void my_message_callback(struct mosquitto *mosq, void *obj, const struct mosquit
                 switch (tcp_states) {
                     case CLOSED:
                         server_can_run = false;
-                        //mosquitto_disconnect(mosq);
                         tcp_states = LISTEN;
                         printf("STATE: LISTEN\n");
                     break;
@@ -379,7 +375,6 @@ int main(int argc, char *argv[])
 	}
 	mosquitto_connect_callback_set(mosq, my_connect_callback);
 	mosquitto_message_callback_set(mosq, my_message_callback);
-	//mosquitto_publish_callback_set(mosq, my_publish_callback);  // added
 
 	printf("STATE: CLOSED\n");
 	printf("STATE: LISTEN\n");
