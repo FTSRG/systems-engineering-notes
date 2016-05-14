@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="MySolution.Main.HelloWorld" file="HelloWorld.c" />
+  <dependency className="MySolution.Main.HelloWorld" file="HelloWorld.h" />
+  <dependency className="MySolution.Main.Makefile" file="Makefile" />
+  <dependency className="MySolution.Main.TypeSizeConfiguration (M.Main)" file="TypeSizeConfiguration (M.Main)" />
+</dependenciesRoot>
+

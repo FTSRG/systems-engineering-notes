@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="com.mbeddr.core.expressions.structure.EqualsExpression" />
+  <concept fqn="com.mbeddr.core.expressions.structure.NumberLiteral" />
+  <concept fqn="com.mbeddr.core.modules.structure.ArgumentRef" />
+  <concept fqn="com.mbeddr.core.modules.structure.Function" />
+  <concept fqn="com.mbeddr.core.modules.structure.FunctionCall" />
+  <concept fqn="com.mbeddr.core.modules.structure.FunctionPrototype" />
+  <concept fqn="com.mbeddr.core.modules.structure.GlobalVariableDeclaration" />
+  <concept fqn="com.mbeddr.core.modules.structure.ReturnStatement" />
+  <concept fqn="com.mbeddr.core.pointers.structure.StringLiteral" />
+  <concept fqn="com.mbeddr.core.statements.structure.ArbitraryTextExpression" />
+  <concept fqn="com.mbeddr.core.statements.structure.ExpressionStatement" />
+  <concept fqn="com.mbeddr.core.statements.structure.IfStatement" />
+  <concept fqn="com.mbeddr.core.statements.structure.LocalVarRef" />
+  <concept fqn="com.mbeddr.core.statements.structure.LocalVariableDeclaration" />
+  <concept fqn="com.mbeddr.core.statements.structure.StatementList" />
+  <concept fqn="com.mbeddr.core.udt.structure.EnumDeclaration" />
+  <concept fqn="com.mbeddr.core.udt.structure.EnumLiteral" />
+  <concept fqn="com.mbeddr.core.udt.structure.EnumLiteralRef" />
+  <concept fqn="com.mbeddr.core.udt.structure.TypeDef" />
+  <root nodeRef="r:3c44ac2f-b524-4e7e-8821-3d1ac2856c8f(MySolution.Main)/2068932299903184773">
+    <file name="HelloWorld.c">
+      <node id="9041785179975760454" at="8,0,8,27" concept="16" trace="HelloWorld_sectors__OUTER" />
+      <node id="9041785179975760462" at="9,0,9,27" concept="16" trace="HelloWorld_sectors__INNER" />
+      <node id="9041785179975776632" at="10,0,10,25" concept="16" trace="HelloWorld_sectors__OUT" />
+      <node id="2068932299903184773" at="13,0,13,53" concept="18" />
+      <node id="9041785179975776694" at="20,54,20,77" concept="17" />
+      <node id="9041785179975777452" at="24,7,24,11" concept="2" />
+      <node id="9041785179975777551" at="24,7,24,21" concept="0" />
+      <node id="9041785179975777656" at="24,15,24,21" concept="8" />
+      <node id="9041785179975792385" at="26,9,26,23" concept="2" />
+      <node id="9041785179975777005" at="26,9,26,52" concept="0" />
+      <node id="9041785179975777081" at="26,27,26,52" concept="17" />
+      <node id="9041785179975777551" at="28,6,28,15" concept="7" />
+      <node id="9041785179975779080" at="28,13,28,14" concept="1" />
+      <node id="9041785179975792861" at="30,9,30,23" concept="2" />
+      <node id="9041785179975777278" at="30,9,30,52" concept="0" />
+      <node id="9041785179975777367" at="30,27,30,52" concept="17" />
+      <node id="9041785179975777551" at="32,6,32,16" concept="7" />
+      <node id="9041785179975779875" at="32,13,32,15" concept="1" />
+      <node id="9041785179975777980" at="35,7,35,11" concept="2" />
+      <node id="9041785179975778103" at="35,7,35,22" concept="0" />
+      <node id="9041785179975778224" at="35,15,35,22" concept="8" />
+      <node id="9041785179975792385" at="37,9,37,23" concept="2" />
+      <node id="9041785179975777005" at="37,9,37,52" concept="0" />
+      <node id="9041785179975777081" at="37,27,37,52" concept="17" />
+      <node id="9041785179975778103" at="39,6,39,15" concept="7" />
+      <node id="9041785179975779469" at="39,13,39,14" concept="1" />
+      <node id="9041785179975792861" at="41,9,41,23" concept="2" />
+      <node id="9041785179975777278" at="41,9,41,52" concept="0" />
+      <node id="9041785179975777367" at="41,27,41,52" concept="17" />
+      <node id="9041785179975778103" at="43,6,43,16" concept="7" />
+      <node id="9041785179975780298" at="43,13,43,15" concept="1" />
+      <node id="9041785179975776848" at="46,2,46,11" concept="7" />
+      <node id="9041785179975778711" at="46,9,46,10" concept="1" />
+      <node id="9041785179975776834" at="51,2,51,64" concept="7" />
+      <node id="9041785179975776848" at="51,9,51,63" concept="4" />
+      <node id="9041785179975776848" at="51,42,51,46" concept="2" />
+      <node id="9041785179975776848" at="51,48,51,62" concept="2" />
+      <node id="9041785179975757626" at="56,2,56,127" concept="4" />
+      <node id="9041785179975757626" at="56,2,56,128" concept="10" />
+      <node id="9041785179975757626" at="56,33,56,126" concept="8" />
+      <node id="9041785179975789874" at="58,2,58,74" concept="13" />
+      <node id="9041785179975790005" at="58,18,58,73" concept="4" />
+      <node id="9041785179975790016" at="58,39,58,45" concept="8" />
+      <node id="9041785179975808384" at="58,47,58,72" concept="17" />
+      <node id="9041785179975788462" at="59,2,59,34" concept="4" />
+      <node id="9041785179975788464" at="59,2,59,35" concept="10" />
+      <node id="9041785179975788506" at="59,9,59,26" concept="8" />
+      <node id="9041785179975796237" at="59,28,59,33" concept="12" />
+      <node id="9041785179975757616" at="60,2,60,11" concept="7" />
+      <node id="9041785179975757617" at="60,9,60,10" concept="1" />
+      <node id="2068932299903184773" at="68,2,68,41" concept="9" />
+      <node id="2068932299903184773" at="68,2,68,42" concept="10" />
+      <node id="2068932299903184773" at="69,2,69,28" concept="9" />
+      <node id="2068932299903184773" at="69,2,69,29" concept="10" />
+      <node id="2068932299903184773" at="69,23,69,26" concept="2" />
+      <node id="2068932299903184773" at="14,0,15,0" concept="5" trace="MySolution.Main.blockexpr_get_score_2" />
+      <node id="2068932299903184773" at="16,0,17,0" concept="5" trace="MySolution.Main.get_score" />
+      <node id="2068932299903184773" at="18,0,19,0" concept="5" trace="MySolution.Main.messages_HelloWorld" />
+      <node id="9041785179975776485" at="20,0,21,0" concept="6" />
+      <node id="9041785179975757626" at="56,2,57,2" concept="14" />
+      <node id="9041785179975777551" at="27,4,29,5" concept="14" />
+      <node id="9041785179975777551" at="31,4,33,5" concept="14" />
+      <node id="9041785179975778103" at="38,4,40,5" concept="14" />
+      <node id="9041785179975778103" at="42,4,44,5" concept="14" />
+      <node id="9041785179975760300" at="50,0,52,1" concept="14" />
+      <node id="9041785179975777551" at="26,4,29,5" concept="11" />
+      <node id="9041785179975777551" at="30,4,33,5" concept="11" />
+      <node id="9041785179975778103" at="37,4,40,5" concept="11" />
+      <node id="9041785179975778103" at="41,4,44,5" concept="11" />
+      <node id="2068932299903184773" at="67,0,70,1" concept="14" />
+      <node id="9041785179975760298" at="49,0,53,0" concept="3" trace="HelloWorld_get_score" />
+      <node id="9041785179975760428" at="7,0,12,0" concept="15" />
+      <node id="9041785179975757608" at="55,0,61,1" concept="14" />
+      <node id="9041785179975757606" at="54,0,62,0" concept="3" trace="main" />
+      <node id="2068932299903184773" at="63,0,71,0" concept="3" trace="HelloWorld_messages_HelloWorld" />
+      <node id="9041785179975777551" at="25,2,34,3" concept="14" />
+      <node id="9041785179975778103" at="36,2,45,3" concept="14" />
+      <node id="9041785179975777551" at="24,2,34,3" concept="11" />
+      <node id="9041785179975778103" at="35,2,45,3" concept="11" />
+      <node id="9041785179975776848" at="23,0,47,1" concept="14" />
+      <node id="9041785179975776848" at="22,0,48,0" concept="3" trace="HelloWorld_blockexpr_get_score_2" />
+      <unit id="2068932299903184773" at="1,0,72,0" name="MySolution.Main.HelloWorld" />
+    </file>
+    <file name="HelloWorld.h">
+      <node id="2068932299903184773" at="19,0,20,0" concept="5" trace="MySolution.Main.main" />
+    </file>
+  </root>
+</debug-info>
+
