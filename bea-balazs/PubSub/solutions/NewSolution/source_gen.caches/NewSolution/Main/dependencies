@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="NewSolution.Main.Makefile" file="Makefile" />
+  <dependency className="NewSolution.Main.PubSub" file="PubSub.c" />
+  <dependency className="NewSolution.Main.PubSub" file="PubSub.h" />
+  <dependency className="NewSolution.Main.TypeSizeConfiguration (N.Main)" file="TypeSizeConfiguration (N.Main)" />
+</dependenciesRoot>
+
