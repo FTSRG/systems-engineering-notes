@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1460321500 source:/home/slowmo2/Documents/c_programming/cb/test_client/client_shared.c
+	<errno.h>
+	<fcntl.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<process.h>
+	<winsock2.h>
+	<mosquitto.h>
+	"client_shared.h"
+
+1455460615 /home/slowmo2/Documents/c_programming/cb/test_client/client_shared.h
+	<stdio.h>
+
+1461247433 source:/home/slowmo2/Documents/c_programming/cb/test_client/test_client.c
+	<assert.h>
+	<errno.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<process.h>
+	<winsock2.h>
+	<mosquitto.h>
+	"client_shared.h"
+
