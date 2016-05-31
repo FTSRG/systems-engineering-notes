@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="Statemachines.code.HelloWorld" file="HelloWorld.c" />
+  <dependency className="Statemachines.code.HelloWorld" file="HelloWorld.h" />
+  <dependency className="Statemachines.code.Makefile" file="Makefile" />
+</dependenciesRoot>
+
